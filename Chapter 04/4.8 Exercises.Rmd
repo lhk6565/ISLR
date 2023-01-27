@@ -194,9 +194,9 @@ Odds of defaulting is 0.19
 ## APPLIED
 ***
 
-<a id="ex10"></a>
+<a id="ex13"></a>
 
-EXERCISE 10:
+EXERCISE 13:
 
 __Part a)__
 
@@ -276,11 +276,11 @@ table(knn.pred, test$Direction)
 mean(knn.pred == test$Direction)  # Accuracy=0.500
 ```
 
-__Part h)__
+__Part i)__
 
 The Logistic Regression and LDA models produced the best results
 
-__Part i)__
+__Part j)__
 
 ```{r, warning=FALSE, message=FALSE}
 knn.pred <- knn(train.X, test.X, train$Direction, k=5)
@@ -308,9 +308,9 @@ mean(fit.lda.pred == test$Direction)  # Accuracy=0.644
 
 ***
 
-<a id="ex11"></a>
+<a id="ex14"></a>
 
-EXERCISE 11:
+EXERCISE 14:
 
 __Part a)__
 
@@ -398,9 +398,9 @@ KNN performs best around k=30 and k=100
 
 ***
 
-<a id="ex12"></a>
+<a id="ex15"></a>
 
-EXERCISE 12:
+EXERCISE 15:
 
 __Part a)__
 
@@ -457,9 +457,9 @@ PlotPower(1:10,3)
 
 ***
 
-<a id="ex13"></a>
+<a id="ex16"></a>
 
-EXERCISE 13:
+EXERCISE 16:
 
 ```{r, warning=FALSE, message=FALSE}
 data(Boston)
